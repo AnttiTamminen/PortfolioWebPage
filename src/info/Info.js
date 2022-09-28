@@ -3,6 +3,7 @@ import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
+import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -89,8 +90,13 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
+            title: "Cherry Rush game",
+            source: "https://github.com/AnttiTamminen/CherryRush",
+            image: mock5
+        },
+        {
             title: "FindIT Webstore",
-            source: "https://github.com/AnttiTamminen/FindItWebStore", // this should be a link to the **repository** of the project, where the code is hosted.
+            source: "https://github.com/AnttiTamminen/FindItWebStore",
             image: mock1
         },
         {
@@ -107,6 +113,6 @@ export const info = {
             title: "Learning Diary ConsoleApp",
             source: "https://github.com/AnttiTamminen/LearningDiaryConsoleApp",
             image: mock4
-        },
+        }
     ]
 }
